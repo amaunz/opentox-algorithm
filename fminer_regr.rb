@@ -40,7 +40,7 @@ post '/fminer/?' do
                 #puts smiles + "\t" + true.to_s
                 compounds[id] = compound
                 @@fminer.AddCompound(smiles,id)
-                @@fminer.AddActivity(act.to_s, id)
+                @@fminer.AddActivity(act.to_f, id)
 			end
 			id += 1
 		end
