@@ -6,7 +6,8 @@ require 'logger'
 
 #require 'smarts.rb'
 #require 'similarity.rb'
-require 'fminer.rb'
+require 'fminer_class.rb'
+require 'fminer_regr.rb'
 require 'lazar.rb'
 
 set :lock, true
